@@ -1,69 +1,60 @@
-<?php 
-    include "../model/pdo.php";
-    include "header.php";
-    if(isset($_GET['act'])){
-        $act=$_GET['act'];
-        switch ($act){
-            case 'adddm':
-                if(isset($_POST['themmoi'])&&($_POST['themmoi'])){
-                    $tenloai=$_POST['tenloai'];
-                    $sql="insert into danhmuc(name) values('$tenloai')";
-                    pdo_execute($sql);
-                    $thongbao="Thêm thành công";
-                }
-               
-                include "danhmuc/add.php";
-                break;
-            case 'listdm':
-                $sql="select * from danhmuc order by id desc";
-                $listdanhmuc=pdo_query($sql);
-                include "danhmuc/list.php";
-                break;
+<?php
+include "../model/pdo.php";
+include "../model/danhmuc.php";
+include "header.php";
+if (isset($_GET['act'])) {
+    $act = $_GET['act'];
+    switch ($act) {
+        case 'adddm':
+            if (isset($_POST['themmoi']) && ($_POST['themmoi'])) {
+                $tenloai = $_POST['tenloai'];
+                insert_danhmuc($tenloai);
+                $thongbao = "Thêm thành công";
+            }
 
-            case 'xoadm':
-                if(isset($_GET['id']) && ($_GET['id']>0)){
-                    $sql="delete from danhmuc where id=" .$_GET['id'];
-                    pdo_execute($sql);
+            include "danhmuc/add.php";
+            break;
+        case 'listdm':
+            $listdanhmuc = loadall_danhmuc();
+            include "danhmuc/list.php";
+            break;
 
-                };
-                $sql="select * from danhmuc order by id desc";
-                $listdanhmuc=pdo_query($sql);
-                include "danhmuc/list.php";
-                break;
+        case 'xoadm':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
 
-            case 'suadm':
-                if(isset($_GET['id']) && ($_GET['id']>0)){
-                    $sql="select * from danhmuc where id=" .$_GET['id'];
-                    $dm=pdo_query_one($sql);
+                delete_danhmuc($_GET['id']);
+            };
+            $listdanhmuc = loadone_danhmuc($id);
+            include "danhmuc/list.php";
+            break;
 
-                }
-                include "danhmuc/update.php";
-                break;
+        case 'suadm':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                $dm = loadone_danhmuc($_GET['id']);
+            }
+            include "danhmuc/update.php";
+            break;
 
-            case 'updatedm':
-                 if(isset($_POST['update'])&&($_POST['update'])){
-                    $tenloai=$_POST['tenloai'];
-                    $id=$_POST['id'];
-                    $sql="update danhmuc set name='".$tenloai."' where id=" .$id;
-                    pdo_execute($sql);
-                    $thongbao=" uPDATE thành công";
-                }
+        case 'updatedm':
+            if (isset($_POST['update']) && ($_POST['update'])) {
+                $tenloai = $_POST['tenloai'];
+                $id = $_POST['id'];
+                update_danhmuc($id, $tenloai);
+                $thongbao = " uPDATE thành công";
+            }
 
-                $sql="select * from danhmuc order by id desc";
-                $listdanhmuc=pdo_query($sql);
-                include "danhmuc/list.php";
-                break;
+            $listdanhmuc = loadall_danhmuc();
+            include "danhmuc/list.php";
+            break;
 
-                include "danhmuc/update.php";
-                break;
+            include "danhmuc/update.php";
+            break;
 
-            default:
-                include "home.php";
-                break;
-        };
-    }else{
-        include "home.php";
-    }
-    include "footer.php";
-    
-?>
+        default:
+            include "home.php";
+            break;
+    };
+} else {
+    include "home.php";
+}
+include "footer.php";
