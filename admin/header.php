@@ -39,10 +39,10 @@
 </head>
 <body onload="time()">
     <script>
-        swal("Xin Chào Admin", "Chúc Bạn 1 Ngày Tốt Lành Nhé", "");
+        // swal("Xin Chào Admin", "Chúc Bạn 1 Ngày Tốt Lành Nhé", "");
     </script>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top ">
+        <div class="container-fluid ">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <i class="fas fa-bars"></i>
@@ -50,7 +50,7 @@
                 <a class="navbar-brand" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> QUẢN
                     LÝ SẢN PHẨM</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="collapse navbar-collapse mt-8" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home" data-toggle="tooltip" data-placement="bottom"
                             title="NHÂN VIÊN">Sản Phẩm</a></li>

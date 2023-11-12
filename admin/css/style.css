@@ -152,7 +152,13 @@ ul li ul.dropdown li{
       text-align: left;
       color: black;
       font-weight: 600;
+      margin-top: 80px;
+
   }
+   .mt80{
+    display: inline-block;
+    margin-bottom: 80px;
+   }
   .ds{
       font-size: 30px;
       color: black;

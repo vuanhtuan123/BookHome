@@ -11,16 +11,18 @@
             </thead>
             <?php 
                 foreach($listdanhmuc as $danhmuc){
-                    extract($danhmuc)
+                    extract($danhmuc);
+                    $suadm="index.php?act=suadm&id=" .$id;
+                    $xoadm="index.php?act=xoadm&id=" .$id;
                     echo ' <tr>
                     <td>'.$id.'</td>
                     <td>'.$name.'g</td>
                     <td>
-                        <a class="add" title="Lưu Lại" data-toggle="tooltip"><i class="fa fa-floppy-o"
+                        <a href="" class="add" title="Lưu Lại" data-toggle="tooltip"><i class="fa fa-floppy-o"
                                 aria-hidden="true"></i></a>
-                        <a class="edit" title="Sửa" data-toggle="tooltip"><i class="fa fa-pencil"
+                        <a href="'.$suadm.'" class="edit" title="Sửa" data-toggle="tooltip"><i class="fa fa-pencil"
                                 aria-hidden="true"></i></a>
-                        <a class="delete" title="Xóa" data-toggle="tooltip"><i class="fa fa-trash-o"
+                        <a href="'.$xoadm.'" class="delete" title="Xóa" data-toggle="tooltip"><i class="fa fa-trash-o"
                                 aria-hidden="true"></i></a>
                     </td>
                 </tr>';
