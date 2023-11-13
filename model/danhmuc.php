@@ -6,7 +6,7 @@ function insert_danhmuc($tenloai)
 }
 function delete_danhmuc($id)
 {
-    $sql = "delete from danhmuc where id=" . $id;
+    $sql = "delete from danhmuc where id=" .$id;
     pdo_execute($sql);
 }
 function loadall_danhmuc()
@@ -17,7 +17,7 @@ function loadall_danhmuc()
 }
 function loadone_danhmuc($id)
 {
-    $sql = "select * from danhmuc where id=" . $id;
+    $sql = "select * from danhmuc where id=" .$id;
     $dm = pdo_query_one($sql);
     return $dm;
 }

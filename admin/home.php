@@ -15,7 +15,7 @@
                         extract($danhmuc)
                         echo ' <tr>
                         <td>'.$id.'</td>
-                        <td>'.$name.'g</td>
+                        <td>'.$name.'</td>
                         <td>
                             <a class="add" title="Lưu Lại" data-toggle="tooltip"><i class="fa fa-floppy-o"
                                     aria-hidden="true"></i></a>

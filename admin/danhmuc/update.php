@@ -19,7 +19,7 @@
             <input type="text" name="tenloai" placeholder="nhập vào tên" value="<?php if(isset($name) && ($name !="")) echo $name; ?>">
            </div>
            <div class="row mb10 ">
-                <input type="hidden" name="id" value="<?php if(isset($id) && ($id>0)) echo $name;?>"  >
+                <input type="hidden" name="id" value="<?php if(isset($id) && ($id>0)) echo $id;?>"  >
                 <input class="mr20" type="submit" name="capnhat" value="Cap Nhat">
                 <input  class="mr20" type="reset" value="NHẬP LẠI">
                 <a href="index.php?act=listdm"><input class="mr20" type="button" value="Danh sách"></a>
@@ -27,5 +27,7 @@
             <?php 
             if(isset($thongbao)&&($thongbao!="")) echo $thongbao;
             ?>
+            </form>
           </div>
+
 </div>
