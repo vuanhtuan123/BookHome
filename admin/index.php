@@ -99,25 +99,37 @@ if (isset($_GET['act'])) {
     
             case 'suasp':
                 if (isset($_GET['id']) && ($_GET['id'] > 0)) {
-                    $dm = loadone_sanpham($_GET['id']);
+                    $sanpham = loadone_sanpham($_GET['id']);
                 }
+                $listdanhmuc = loadall_danhmuc();
                 include "sanpham/update.php";
                 break;
     
             case 'updatesp':
-                if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
-                    $tenloai = $_POST['tenloai'];
+                if (isset($_POST['capnhap']) && ($_POST['capnhap'])) {
                     $id = $_POST['id'];
-                    update_sanpham($id, $tenloai);
+                    $iddm = $_POST['iddm'];
+                    $tensp = $_POST['tensp'];
+                    $giasp = $_POST['giasp'];
+                    $mota = $_POST['mota'];
+                    $hinh=$_FILES['hinh']['name'];
+                    $target_dir = "../upload/";
+                    $target_file = $target_dir . basename($_FILES["hinh"]["name"]);
+                    if (move_uploaded_file($_FILES["hinh"]["tmp_name"], $target_file)) {
+                        //echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
+                      } else {
+                        //echo "Sorry, there was an error uploading your file.";
+                      }
+                    update_sanpham($id,$iddm, $tensp, $giasp, $mota, $hinh);
                     $thongbao = "Cập Nhật thành công";
                 }
-    
+                $listdanhmuc = loadall_danhmuc();
                 $listsanpham = loadall_sanpham();
+                
                 include "sanpham/list.php";
                 break;
     
-                include "sanpham/update.php";
-                break;
+                
 
         default:
             include "home.php";

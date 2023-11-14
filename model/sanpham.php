@@ -1,7 +1,7 @@
 <?php
-function insert_sanpham($tensp,$giasp,$hinh,$mota,$iddm)
+function insert_sanpham($tensp,$hinh,$giasp,$mota,$iddm)
 {
-    $sql = "insert into sanpham(name,price,img,mota,iddm) values('$tensp','$giasp','$hinh','$mota','$iddm')";
+    $sql = "insert into sanpham(name,img,price,mota,iddm) values('$tensp','$hinh','$giasp','$mota','$iddm')";
     pdo_execute($sql);
 }
 function delete_sanpham($id)
@@ -9,7 +9,7 @@ function delete_sanpham($id)
     $sql = "delete from sanpham where id=" .$id;
     pdo_execute($sql);
 }
-function loadall_sanpham($kyw, $iddm)
+function loadall_sanpham($kyw="", $iddm=0)
 {
     $sql = "select * from sanpham where 1";
     if($kyw!=""){
@@ -29,8 +29,12 @@ function loadone_sanpham($id)
     $dm = pdo_query_one($sql);
     return $dm;
 }
-function update_sanpham($id, $tenloai)
+function update_sanpham($id,$iddm, $tensp, $giasp, $mota, $hinh)
 {
-    $sql = "update sanpham set name='" . $tenloai . "' where id=" . $id;
+    if($hinh!=""){
+        $sql = "update sanpham set iddm='".$iddm."',name='" .$tensp. "', price='" .$giasp. "', mota='" .$mota.  "', img='" .$hinh. "' where id=" .$id;
+    }else{
+        $sql = "update sanpham set iddm='".$iddm."',name='" .$tensp. "', price='" .$giasp. "', mota='" .$mota. "' where id=" .$id;
+    }
     pdo_execute($sql);
 }
