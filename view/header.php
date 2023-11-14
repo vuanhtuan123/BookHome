@@ -3,14 +3,15 @@
 <head>
 	<title>CSS Free Templates with jQuery Slider</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="css/images/favicon.ico" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<link rel="shortcut icon" href="./view/css/images/favicon.ico" />
+	<link rel="stylesheet" href="./view/css/style.css" type="text/css" media="all" />
+	<script type="text/javascript" src="view/js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="view/js/jquery.jcarousel.min.js"></script>
 	<!--[if IE 6]>
 		<script type="text/javascript" src="js/png-fix.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="view/js/functions.js"></script>
+	
 </head>
 <body>
 	<!-- Header -->
@@ -31,7 +32,7 @@
 		<div class="cl">&nbsp;</div>
 		<!-- Login-details -->
 		<div id="login-details">
-			<p>Welcome, <a href="#" id="user">Guest</a> .</p><p><a href="#" class="cart" ><img src="css/images/cart-icon.png" alt="" /></a>Shopping Cart (0) <a href="#" class="sum">$0.00</a></p>
+			<p>Welcome, <a href="#" id="user">Guest</a> .</p><p><a href="#" class="cart" ><img src="./view/css/images/cart-icon.png" alt="" /></a>Shopping Cart (0) <a href="#" class="sum">$0.00</a></p>
 		</div>
 		<!-- End Login-details -->
 	</div>
@@ -42,7 +43,7 @@
 			<ul>
 				<li>
 					<div class="image">
-						<img src="css/images/books.png" alt="" />
+						<img src="./view/css/images/books.png" alt="" />
 					</div>
 					<div class="details">
 						<h2>Bestsellers</h2>
@@ -54,7 +55,7 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="css/images/books.png" alt="" />
+						<img src="./view/css/images/books.png" alt="" />
 					</div>
 					<div class="details">
 						<h2>Bestsellers</h2>
@@ -66,7 +67,7 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="css/images/books.png" alt="" />
+						<img src="./view/css/images/books.png" alt="" />
 					</div>
 					<div class="details">
 						<h2>Bestsellers</h2>
@@ -78,7 +79,7 @@
 				</li>
 				<li>
 					<div class="image">
-						<img src="css/images/books.png" alt="" />
+						<img src="./view/css/images/books.png" alt="" />
 					</div>
 					<div class="details">
 						<h2>Bestsellers</h2>
