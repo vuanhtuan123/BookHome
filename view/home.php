@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="bestselling__heading-wrap">
-                    <img src="images/bestselling.png" alt="Sản phẩm bán chạy"
+                    <img src="view/images/bestselling.png" alt="Sản phẩm bán chạy"
                     class="bestselling__heading-img">
                     <div class="bestselling__heading">Top bán chạy nhất tuần</div>
                 </div>
@@ -13,7 +13,7 @@
             <section class="row">
                 <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
-                        <img src="images1/product/image_195509_1_22250_thanh_ly_1.jpg" alt="Biểu tượng thất truyền" class="bestselling__product-img">
+                        <img src="view/images1/product/image_195509_1_22250_thanh_ly_1.jpg" alt="Biểu tượng thất truyền" class="bestselling__product-img">
                     </div>
                     <div class="bestselling__product-text">
                         <h3 class="bestselling__product-title">
@@ -39,7 +39,7 @@
                 </div>
                 <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
-                        <img src="images1/product/image_195509_1_31875.jpg" alt="Hỏa Ngục (Tái bản 2020)" class="bestselling__product-img">
+                        <img src="view/images1/product/image_195509_1_31875.jpg" alt="Hỏa Ngục (Tái bản 2020)" class="bestselling__product-img">
                     </div>
                     <div class="bestselling__product-text">
                         <h3 class="bestselling__product-title">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
-                        <img src="images1/product/tr_-tue-do-thai_outline_15.9.2017-02.jpg" alt="Trí Tuệ Do Thái (Tái Bản 2018)" class="bestselling__product-img">
+                        <img src="view/images1/product/tr_-tue-do-thai_outline_15.9.2017-02.jpg" alt="Trí Tuệ Do Thái (Tái Bản 2018)" class="bestselling__product-img">
                     </div>
                     <div class="bestselling__product-text">
                         <h3 class="bestselling__product-title">
@@ -91,7 +91,7 @@
                 </div>
                 <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
-                        <img src="images1/product/image_195509_1_36793.jpg" alt="Nhà Giả Kim (Tái Bản 2020)" class="bestselling__product-img">
+                        <img src="view/images1/product/image_195509_1_36793.jpg" alt="Nhà Giả Kim (Tái Bản 2020)" class="bestselling__product-img">
                     </div>
                     <div class="bestselling__product-text">
                         <h3 class="bestselling__product-title">
@@ -117,7 +117,7 @@
                 </div>
                 <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
-                        <img src="images1/product/image_180164_2_287.jpg" alt="Tuổi Trẻ Đáng Giá Bao Nhiêu? " class="bestselling__product-img">
+                        <img src="view/images1/product/image_180164_2_287.jpg" alt="Tuổi Trẻ Đáng Giá Bao Nhiêu? " class="bestselling__product-img">
                     </div>
                     <div class="bestselling__product-text">
                         <h3 class="bestselling__product-title">
@@ -143,7 +143,7 @@
                 </div>
                 <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
-                        <img src="images1/product/ttdc01.jpg" alt="Thám Tử Đã Chết - Tập 1 - Tặng Kèm Bookmark Tròn" class="bestselling__product-img">
+                        <img src="view/images1/product/ttdc01.jpg" alt="Thám Tử Đã Chết - Tập 1 - Tặng Kèm Bookmark Tròn" class="bestselling__product-img">
                     </div>
                     <div class="bestselling__product-text">
                         <h3 class="bestselling__product-title">
@@ -172,11 +172,11 @@
             <div class="row bestselling__banner">
 
                 <div class="bestselling__banner-left col-lg-6">
-                    <img src="images1/banner/920x420_phienchodocu.png" alt="Banner quảng cáo"
+                    <img src="view/images1/banner/920x420_phienchodocu.png" alt="Banner quảng cáo"
                     class="bestselling__banner-left-img">
                 </div>
                 <div class="bestselling__banner-right col-lg-6">
-                    <img src="images1/banner/muonkiepnhansinh_resize_920x420.jpg" alt="Banner quảng cáo"
+                    <img src="view/images1/banner/muonkiepnhansinh_resize_920x420.jpg" alt="Banner quảng cáo"
                     class="bestselling__banner-right-img">
                 </div>
             </div>
@@ -193,7 +193,7 @@
                     <div class="product__sidebar-heading">
                         <div class=""></div>
                         <h2 class="product__sidebar-title">
-                        <img src="images1/item/1380754_batman_comic_hero_superhero_icon.png" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                        <img src="view/images1/item/1380754_batman_comic_hero_superhero_icon.png" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
                         Manga - Comic</h2>
                     </div>
 
@@ -201,30 +201,30 @@
 
                         <div class="row">
                             <div class="product__sidebar-item col-lg-6">
-                                <img src="images1/product/【グラブル】「炭治郎&禰豆子&善逸&伊之助」の評価_性能検証｜鬼滅コラボ【グランブルーファンタジー】 - ゲームウィズ(GameWith).jfif" alt="" class="product__sidebar-item-img">
+                                <img src="view/images1/product/【グラブル】「炭治郎&禰豆子&善逸&伊之助」の評価_性能検証｜鬼滅コラボ【グランブルーファンタジー】 - ゲームウィズ(GameWith).jfif" alt="" class="product__sidebar-item-img">
                                 <a href="" class="product__sidebar-item-name">Manga</a>
                             </div>
                             <div class="product__sidebar-item col-lg-6">
-                                <img src="images1/product/My Anime For Life.jfif" class="product__sidebar-item-img">
+                                <img src="view/images1/product/My Anime For Life.jfif" class="product__sidebar-item-img">
                                 <a href="" class="product__sidebar-item-name">Series Manga</a>
                             </div>
                             <div class="product__sidebar-item col-lg-6">
-                                <img src="images1/product/twd2_biaao_demo.jpg" alt="" class="product__sidebar-item-img">
+                                <img src="view/images1/product/twd2_biaao_demo.jpg" alt="" class="product__sidebar-item-img">
                                 <a href="" class="product__sidebar-item-name">Comics</a>
                             </div>
                             <div class="product__sidebar-item col-lg-6">
-                                <img src="images1/product/8936054081882.jpg" alt="" class="product__sidebar-item-img">
+                                <img src="view/images1/product/8936054081882.jpg" alt="" class="product__sidebar-item-img">
                                 <a href="" class="product__sidebar-item-name">Truyện tranh Việt Nam</a>
                             </div>
                         </div>
                     </nav>
 
                     <div class="product__sidebar-img-wrap">
-                        <!-- <img src="images1/product/Demon Slayer_ Kimetsu no Yaiba - Assista na Crunchyroll.png" width="255" height="350" alt=""> -->
+                        <!-- <img src="view/images1/product/Demon Slayer_ Kimetsu no Yaiba - Assista na Crunchyroll.png" width="255" height="350" alt=""> -->
                         <video width="255" height="300" controls>
-                        <source src="video/contra.st_1629123780_musicaldown.com.mp4" type="video/mp4">
+                        <source src="view/video/contra.st_1629123780_musicaldown.com.mp4" type="video/mp4">
                         </video>
-                        <!-- <img src="images/banner_7.jpg" alt="" class="product__sidebar-img"> -->
+                        <!-- <img src="view/images/banner_7.jpg" alt="" class="product__sidebar-img"> -->
                     </div>
                 </aside>
 
@@ -255,7 +255,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/600my-hero-academia-hoc-vien-sieu-anh-hung.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/600my-hero-academia-hoc-vien-sieu-anh-hung.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="product.html" class="product__panel-link">My Hero Academia - Tập 27: One’s Justice</a>
@@ -285,7 +285,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/cau-ma-nha-xi-hanako---tap-1.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/cau-ma-nha-xi-hanako---tap-1.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">"Cậu" Ma Nhà Xí Hanako - Tập 1</a>
@@ -315,7 +315,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/one-piece-tap-95_chuyen-chu-du-cua-oden_1.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/one-piece-tap-95_chuyen-chu-du-cua-oden_1.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">One Piece - Tập 95 (Bản Bìa Rời)</a>
@@ -345,7 +345,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/mob-psycho-100_tap-3.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/mob-psycho-100_tap-3.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">Mob Psycho 100 - Tập 3</a>
@@ -378,7 +378,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/thanh-guom-diet-quy-tap-12.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/thanh-guom-diet-quy-tap-12.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">Thanh Gươm Diệt Quỷ - Tập 12: Các Thượng Huyền Tập Hợp</a>
@@ -404,7 +404,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/image_186914.jpg" alt="" class="product__panel-img" >
+                                    <img src="view/images1/product/image_186914.jpg" alt="" class="product__panel-img" >
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">My Hero Academia - Tập 5: Todoroki Shoto: Khởi Đầu (Tái Bản)</a>
@@ -429,7 +429,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                 <div class="product__panel-img-wrap">
-                                    <img src="images1/product/image_186912.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/image_186912.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">My Hero Academia - Tập 3: All Might (Tái Bản)</a>
@@ -455,7 +455,7 @@
                         <div class="product__panel-item col-lg-3 col-md-4 col-sm-6">
                             <div class="product__panel-item-wrap">
                                <div class="product__panel-img-wrap">
-                                    <img src="images1/product/one-22.jpg" alt="" class="product__panel-img">
+                                    <img src="view/images1/product/one-22.jpg" alt="" class="product__panel-img">
                                 </div>
                                 <h3 class="product__panel-heading">
                                     <a href="#" class="product__panel-link">One-Punch Man Tập 22: Ánh Sáng</a>
@@ -496,7 +496,7 @@
             <div class="row bg-white">
                 <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
                     <div class="product__panel-img-wrap">
-                        <img src="images1/product/image_187163.jpg" alt="" class="product__panel-img">
+                        <img src="view/images1/product/image_187163.jpg" alt="" class="product__panel-img">
                     </div>
                     <h3 class="product__panel-heading">
                         <a href="#" class="product__panel-link">Tuổi Thơ Dữ Dội - Tập 2 (Tái Bản 2019)</a>
@@ -521,7 +521,7 @@
 
                 <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
                     <div class="product__panel-img-wrap">
-                        <img src="images1/product/image_188285.jpg" alt="" class="product__panel-img">
+                        <img src="view/images1/product/image_188285.jpg" alt="" class="product__panel-img">
                     </div>
                     <h3 class="product__panel-heading">
                         <a href="#" class="product__panel-link">Chuyện Con Mèo Dạy Hải Âu Bay</a>
@@ -546,7 +546,7 @@
 
                 <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
                     <div class="product__panel-img-wrap">
-                        <img src="images1/product/8936186542176.jpg" alt="" class="product__panel-img">
+                        <img src="view/images1/product/8936186542176.jpg" alt="" class="product__panel-img">
                     </div>
                     <h3 class="product__panel-heading">
                         <a href="#" class="product__panel-link">Tôi thích một cô gái nhưng không dám ngỏ lời</a>
@@ -571,7 +571,7 @@
                 </div>
                 <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
                     <div class="product__panel-img-wrap">
-                        <img src="images1/product/biamem.jpg" alt="" class="product__panel-img">
+                        <img src="view/images1/product/biamem.jpg" alt="" class="product__panel-img">
                     </div>
                     <h3 class="product__panel-heading">
                         <a href="#" class="product__panel-link">Con Chim Xanh Biếc Bay Về - Tặng Kèm 6 Postcard</a>
@@ -596,7 +596,7 @@
 
                 <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
                     <div class="product__panel-img-wrap">
-                        <img src="images1/product//8936049524905.jpg" alt="" class="product__panel-img" >
+                        <img src="view/images1/product//8936049524905.jpg" alt="" class="product__panel-img" >
                     </div>
                     <h3 class="product__panel-heading">
                         <a href="#" class="product__panel-link">5 Centimet Trên Giây</a>
@@ -621,7 +621,7 @@
 
                 <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
                     <div class="product__panel-img-wrap">
-                        <img src="images1/product/bia1_tobinhyen_2_1_1.jpg" alt="" class="product__panel-img" >
+                        <img src="view/images1/product/bia1_tobinhyen_2_1_1.jpg" alt="" class="product__panel-img" >
                     </div>
                     <h3 class="product__panel-heading">
                         <a href="#" class="product__panel-link">Tô Bình Yên Vẽ Hạnh Phúc 

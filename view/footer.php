@@ -11,7 +11,7 @@
             <article class="row posts__list">
                 <div class="posts__item col-lg-3 col-md-6 col-sm-6">
                     <div class="posts__item-img" >
-                        <img src="images1/post/got-it-e-voucher.png" width="80%">
+                        <img src="view/images1/post/got-it-e-voucher.png" width="80%">
                     </div>
                     <h3 class="posts__item-heading">
                         <a href="" class="posts__item-title">
@@ -44,7 +44,7 @@
 
                 <div class="posts__item col-lg-3 col-md-6 col-sm-6">
                     <div class="posts__item-img">
-                        <img src="images1/post/hinh-ghep-15986994500641611959184.jpg">
+                        <img src="view/images1/post/hinh-ghep-15986994500641611959184.jpg">
                     </div>
                     <h3 class="posts__item-heading">
                         <a href="" class="posts__item-title">
@@ -77,7 +77,7 @@
 
                 <div class="posts__item col-lg-3 col-md-6 col-sm-6">
                     <div class="posts__item-img">
-                        <img src="images1/post/cach-su-dung-ma-giam-gia-hieu-qua-tai-vnreviews.png">
+                        <img src="view/images1/post/cach-su-dung-ma-giam-gia-hieu-qua-tai-vnreviews.png">
                     </div>
                     <h3 class="posts__item-heading">
                         <a href="#" class="posts__item-title">
@@ -112,7 +112,7 @@
 
                 <div class="posts__item col-lg-3 col-md-6 col-sm-6">
                     <div class="posts__item-img">
-                        <img src="images1/post/images.jfif">
+                        <img src="view/images1/post/view/images.jfif">
                     </div>
                     <h3 class="posts__item-heading">
                         <a href="" class="posts__item-title">
@@ -202,7 +202,7 @@
 
                         <div class="footer__top-contact">
                             <div class="footer__top-contact-icon">
-                                <img src="images/phone_top.png" class="footer__top-contact-img">
+                                <img src="view/images/phone_top.png" class="footer__top-contact-img">
                             </div>
 
                             <div class="footer__top-contact-phone-wrap">
@@ -221,16 +221,16 @@
 
                         <div class="footer__top-contact-social">
                             <a href="#" class="footer__top-contact-social-link">
-                                <img src="images/facebook.png">
+                                <img src="view/images/facebook.png">
                             </a>
                             <a href="#" class="footer__top-contact-social-link">
-                                <img src="images/youtube.png">
+                                <img src="view/images/youtube.png">
                             </a>
                             <a href="#" class="footer__top-contact-social-link">
-                                <img src="images/tiktok.png">
+                                <img src="view/images/tiktok.png">
                             </a>
                             <a href="#" class="footer__top-contact-social-link">
-                                <img src="images/zalo.png">
+                                <img src="view/images/zalo.png">
                             </a>
                         </div>
                     </article>
@@ -257,7 +257,7 @@
                         Nhận phiếu giảm giá <span class="sale-off__sp">30%</span>  khi mua <br> <span class="sale-off__name">Học tập qua dự án</span> 
                     </h2>
                     <div class="sale-off__img">
-                        <img src="images1/product/hoc-tap-qua-du-an-2-01-1.jpg" width="300">
+                        <img src="view/images1/product/hoc-tap-qua-du-an-2-01-1.jpg" width="300">
                     </div>
                     
                     <a href="product.html" class="sale-off__link">
@@ -273,7 +273,7 @@
         </div>
     </div>
     </div>
-    <script src="js/jq.js"></script>
-    <script src="js/index.js"></script>
+    <script src="view\js\jq.js"></script>
+    <script src="view\js\index.js"></script>
 </body>
 </html>

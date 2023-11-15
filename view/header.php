@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ - EduBook</title>
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="view\js\jquery-3.3.1.js"></script>
+    <script src="view\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="view\css\bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="view\fonts\fontawesome\css\all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="view\css\style.css">
+    <link rel="stylesheet" href="view\css\home.css">
 </head>
 <body>
     <div class="app">
@@ -54,7 +54,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-12 header__logo">
                         <h1 class="header__heading">
                             <a href="#" class="header__logo-link">
-                                <img src="images1/logo1.png" alt="Logo" class="header__logo-img">
+                                <img src="view/images1/logo1.png" alt="Logo" class="header__logo-img">
                             </a>
                         </h1>
                     </div>
@@ -145,18 +145,18 @@
                     <ul class="menu__list">
                         <li class="menu__item menu__item--active">
                             <a href="#" class="menu__link">
-                            <img src="images1/item/baby-boy.png" alt=""  class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                            <img src="view/images1/item/baby-boy.png" alt=""  class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
                             Sách Tiếng Việt</a>
                         </li>
                         <li class="menu__item">
                             <a href="#" class="menu__link">
-                            <img src="images1/item/translation.png" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                            <img src="view/images1/item/translation.png" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
                             Sách nước ngoài</a>
                         </li>
                       
                         <li class="menu__item">
                             <a href="#" class="menu__link">
-                                <img src="images1/item/1380754_batman_comic_hero_superhero_icon.png" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
+                                <img src="view/images1/item/1380754_batman_comic_hero_superhero_icon.png" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
 
                             Manga - Comic</a>
                         </li>
@@ -175,13 +175,13 @@
                                 </ol> -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="images1/banner/363488_final1511.jpg" class="d-block w-100" alt="...">
+                                        <img src="view/images1/banner/363488_final1511.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                      <img src="images1/banner/Gold_DongA_600X350.jpg" class="d-block w-100" alt="...">
+                                      <img src="view/images1/banner/Gold_DongA_600X350.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                      <img src="images1/banner/megabook-glod600X350.png" class="d-block w-100" alt="...">
+                                      <img src="view/images1/banner/megabook-glod600X350.png" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -195,16 +195,16 @@
                             </div>
                             <div class="slide__left-bottom">
                                 <div class="slide__left-botom-one">
-                                    <img src="images1/banner/363107_05.jpg" class="slide__left-bottom-one-img">
+                                    <img src="view/images1/banner/363107_05.jpg" class="slide__left-bottom-one-img">
                                 </div>
                                 <div class="slide__left-bottom-two">
-                                    <img src="images1/banner/363104_06.jpg" class="slide__left-bottom-tow-img">
+                                    <img src="view/images1/banner/363104_06.jpg" class="slide__left-bottom-tow-img">
                                 </div>
                             </div>
                         </div>
 
                         <div class="slide__right col-lg-4 col-md-0 col-sm-0">
-                            <img src="images1/banner/slider-right.png" class="slide__right-img">
+                            <img src="view/images1/banner/slider-right.png" class="slide__right-img">
                         </div>
                     </div>
                 </div>
