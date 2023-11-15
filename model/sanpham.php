@@ -32,9 +32,9 @@ function loadone_sanpham($id)
 function update_sanpham($id,$iddm, $tensp, $giasp, $mota, $hinh)
 {
     if($hinh!=""){
-        $sql = "update sanpham set iddm='".$iddm."',name='" .$tensp. "', price='" .$giasp. "', mota='" .$mota.  "', img='" .$hinh. "' where id=" .$id;
+        $sql = "update sanpham set iddm='".$iddm."',name='".$tensp."', price='".$giasp."', mota='".$mota. "', img='".$hinh."' where id=" .$id;
     }else{
-        $sql = "update sanpham set iddm='".$iddm."',name='" .$tensp. "', price='" .$giasp. "', mota='" .$mota. "' where id=" .$id;
+        $sql = "update sanpham set iddm='".$iddm."',name='".$tensp."', price='".$giasp."', mota='".$mota."' where id=" .$id;
     }
     pdo_execute($sql);
 }
