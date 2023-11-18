@@ -14,6 +14,9 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
         case 'gioithieu':
             include "view/gioithieu.php";
             break;
+        case 'dangky':
+            include "view/taikhoan/dangky.php";
+            break;
         case 'lienhe':
             include "view/lienhe.php";
             break;
