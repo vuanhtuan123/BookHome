@@ -143,15 +143,17 @@
             <div class="row">
                 <nav class="menu__nav col-lg-3 col-md-12 col-sm-0">
                     <ul class="menu__list">
-                    <?php
-                    foreach ($dsdm as $dm) {
-                        extract($dm);
-                        $linkdm="index.php?act=sanpham&iddm=".$id;
-                        echo '<li>
-                                <a href="'.$linkdm.'">'.$name.'</a>
-                            </li>';
-                    }
-                ?>
+                        <?php
+                        foreach($dsdm as $dm) {
+                            extract($dm);
+                            extract($listdanhmuc);
+                            $linkdm="index.php?act=sanpham&iddm=".$id;
+                            echo '<li class="menu__item menu__item--active">
+                                        <a href="'.$linkdm.'" class="menu__link">
+                                        <img src="view/images1/item/baby-boy.png" alt=""  class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">'.$name.'</a>
+                                    </li>';
+                        }
+                        ?>
                         <!-- <li class="menu__item menu__item--active">
                             <a href="#" class="menu__link">
                             <img src="view/images1/item/baby-boy.png" alt=""  class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
@@ -162,7 +164,7 @@
                             <img src="view/images1/item/translation.png" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
                             Sách nước ngoài</a>
                         </li>
-                      
+                    
                         <li class="menu__item">
                             <a href="#" class="menu__link">
                                 <img src="view/images1/item/1380754_batman_comic_hero_superhero_icon.png" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
