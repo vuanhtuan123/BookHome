@@ -11,7 +11,41 @@
             </div>
 
             <section class="row">
-                <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
+                <?php
+                    foreach ($dstopth as $sp) {
+                        extract($sp);
+                        $linksp="index.php?act=sanphamct&idsp=".$id;
+                        $img=$img_path.$img;
+                        echo($sp);
+                        echo '<div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
+                        <div class="bestselling__product-img-box">
+                            <img src="'.$img.'" class="bestselling__product-img">
+                        </div>
+                        <div class="bestselling__product-text">
+                            <h3 class="bestselling__product-title">
+                                <a href="'.$linksp.'" class="bestselling__product-link">'.$name.'</a>
+                            </h3>
+    
+                            <div class="bestselling__product-rate-wrap">
+                                <i class="fas fa-star bestselling__product-rate"></i>
+                                <i class="fas fa-star bestselling__product-rate"></i>
+                                <i class="fas fa-star bestselling__product-rate"></i>
+                                <i class="fas fa-star bestselling__product-rate"></i>
+                                <i class="fas fa-star bestselling__product-rate"></i>
+                            </div>
+    
+                            <span class="bestselling__product-price">
+                                219.000đ
+                            </span>
+    
+                            <div class="bestselling__product-btn-wrap">
+                                <button class="bestselling__product-btn">Xem hàng</button>
+                            </div>
+                        </div>
+                    </div>';
+                    }
+                ?>
+                <!-- <div class="bestselling__product col-lg-4 col-md-6 col-sm-12">
                     <div class="bestselling__product-img-box">
                         <img src="view/images1/product/image_195509_1_22250_thanh_ly_1.jpg" alt="Biểu tượng thất truyền" class="bestselling__product-img">
                     </div>
@@ -180,7 +214,7 @@
                     class="bestselling__banner-right-img">
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- end bestselling product -->

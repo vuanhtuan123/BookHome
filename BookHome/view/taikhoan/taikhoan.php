@@ -41,7 +41,8 @@
                 </form>
             </div>
             <div class="boxphai">
-               <?php include "boxright.php";?>
+               <?php include "view/boxright.php";?>
+               
             </div>
             
 

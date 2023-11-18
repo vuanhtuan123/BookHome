@@ -35,10 +35,10 @@
                                 <a href="#" class="header__top-link">Hướng dẫn</a>
                             </li>
                             <li class="header__top-item">
-                                <a href="#" class="header__top-link">Đăng ký</a>
+                                <a href="index.php?act=taikhoan.php" class="header__top-link">Đăng ký</a>
                             </li>
                             <li class="header__top-item">
-                                <a href="#" class="header__top-link">Đăng nhập</a>
+                                <a href="index.php?act=boxright.php" class="header__top-link">Đăng nhập</a>
                             </li>
                         </ul>
                     </nav>

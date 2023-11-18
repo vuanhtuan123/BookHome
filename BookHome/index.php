@@ -7,7 +7,7 @@ include "global.php";
 
 $dsdm = loadall_danhmuc();
 $spnew = loadall_sanpham_home();
-
+$dstopth=loadall_sanpham_top10();
 if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
     $act = $_GET['act'];
     switch ($act) {
