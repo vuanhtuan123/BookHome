@@ -112,7 +112,7 @@
 
                 <div class="posts__item col-lg-3 col-md-6 col-sm-6">
                     <div class="posts__item-img">
-                        <img src="view/images1/post/view/images.jfif">
+                        <img src="/BookHome\view\images1\post\images.jfif">
                     </div>
                     <h3 class="posts__item-heading">
                         <a href="" class="posts__item-title">
