@@ -266,6 +266,10 @@
             flex-direction: column;
             text-decoration: none;
         }
+
+        .thongbao{
+            color:red;
+        }
     </style>
 </head>
 
@@ -291,36 +295,38 @@
 
         <div class="wrapper-login">
             <h2>Member Login</h2>
-            <form action="#">
+            <form action="index.php?act=dangky" method="post">
                 <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
+                    <span class="icon"><ion-icon name="email"></ion-icon></span>
+                    <input type="email" required name="email">
                     <label>Enter your email</label>
                 </div>
                 <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>Enter your password</label>
+                    <input type="text" required name="user">
+                    <label>Ten dang nhap</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>Nhập lại mật khẩu</label>
+                    <input type="password" required name="pass">
+                    <label>Nhập mật khẩu</label>
                 </div>
                 <div class="remember-forgot">
                     <label><input type="checkbox">Remember me</label>
-                    <a href="#">Forgot password?</a>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <input type="submit" value="dangky" name="dangky" class="btn" />
                 <div class="register-link">
-                    <p>Not a member <a href="index.php?act=dangky">Sign up now</a></p>
+                    <p>Not a member <a href="">Sign up now</a></p>
                 </div>
             </form>
+            <h2 clas="thongbao">
+                <?php
+                    if(isset($thongbao) &&($thongbao != "")){
+                        echo $thongbao;
+                    }
+                ?>
+            </h2>
         </div>
 
     </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-
-</html>
