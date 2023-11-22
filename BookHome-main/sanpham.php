@@ -26,6 +26,7 @@
     $comments = loadone_comment($id);
     ?>
     <!-- header -->
+	
     <header id="header">
         <!-- header top -->
         <div class="header__top">
@@ -124,7 +125,7 @@
                     <div class="header__nav col-lg-9 col-md-0 col-sm-0">
                         <ul class="header__nav-list">
                             <li class="header__nav-item">
-                                <a href="index.html" class="header__nav-link">Trang chủ</a>
+                                <a href="index.php" class="header__nav-link">Trang chủ</a>
                             </li>
                             <li class="header__nav-item">
                                 <a href="category.html" class="header__nav-link">Danh mục sản phẩm</a>

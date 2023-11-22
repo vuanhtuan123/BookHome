@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,20 +32,35 @@
 
                         <nav class="col-lg-7 col-md-0 col-sm-0 header__top-right">
                             <ul class="header__top-list">
+							<?php
+									if(isset($_SESSION['idTaiKhoan'])){
+										echo '<li class="header__top-item">
+                                    <a style="color:white;"class="header__top-link">Xin chào '.$_SESSION['tentk'].'</a>
+                                </li>';
+									}?>
                                 <li class="header__top-item">
                                     <a href="#" class="header__top-link">
-
                                         Hỏi đáp</a>
                                 </li>
                                 <li class="header__top-item">
                                     <a href="#" class="header__top-link">Hướng dẫn</a>
                                 </li>
-                                <li class="header__top-item">
+								<?php
+									if(isset($_SESSION['idTaiKhoan'])){
+										echo '<li class="header__top-item">
+                                    <a href="logout.php" class="header__top-link">Đăng xuất</a>
+                                </li>';
+									}
+									else{
+										echo '<li class="header__top-item">
                                     <a href="dangkky.php" class="header__top-link">Đăng ký</a>
                                 </li>
                                 <li class="header__top-item">
                                     <a href="dangnhap.php" class="header__top-link">Đăng nhập</a>
-                                </li>
+                                </li>';
+									}
+								?>
+                                
                             </ul>
                         </nav>
                     </section>
@@ -91,7 +110,7 @@
                             </div>
                         </div>
 
-                        <a href="cart.html" class="col-lg-1 col-md-1 col-sm-0 header__cart">
+                        <a href="cart.php" class="col-lg-1 col-md-1 col-sm-0 header__cart">
                             <div class="header__cart-icon-wrap">
                                 <span class="header__notice">4</span>
                                 <i class="fas fa-shopping-cart header__nav-cart-icon"></i>

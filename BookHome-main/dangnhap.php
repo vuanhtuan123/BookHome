@@ -1,3 +1,16 @@
+<?php
+	if($_SERVER['REQUEST_METHOD'] === 'POST'){
+		require_once('./model/dangnhap.php');
+		$tentk = $_POST['tentk'];
+        $matkhau = $_POST['matkhau'];
+		
+		$model = new DangNhapModel();
+		$model->LayKetQuaDangNhap($tentk,$matkhau);
+		
+	}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -291,58 +304,31 @@
 
         <div class="wrapper-login">
             <h2>Member Login</h2>
-            <?php
-                if(isset($_SESSION['user'])){
-                extract($_SESSION['user']);
-                
-            ?>
+            <form action="dangnhap.php" method="post">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="user"></ion-icon></span>
-                    <label>Xin chào <?=user?></label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon></ion-icon></span>
-                    <label>Quen mat khau</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon></ion-icon></span>
-                    <label>cap nhat tai khoan</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon></ion-icon></span>
-                    <label>Dang nhap admin</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon></ion-icon></span>
-                    <label>thoat</label>
-                </div>
-            <?php
-                }else{
-
-            ?>
-            <form action="index.php?act=dangnhap" method="post">
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="user"></ion-icon></span>
-                    <input type="text" required name="user">
+                    <input type="text" name="tentk" required>
                     <label>Enter your UserName</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required name="pass">
+                    <input type="password" name="matkhau" required>
                     <label>Enter your password</label>
                 </div>
                 <div class="remember-forgot">
                     <label><input type="checkbox">Remember me</label>
                     <a href="#">Forgot password?</a>
                 </div>
-                <input type="submit" class="btn" value="dang nhap" name="dang nhap">
+                <button type="submit" class="btn">Login</button>
                 <div class="register-link">
                     <p>Not a member <a href="#">Sign up now</a></p>
                 </div>
             </form>
-            <?php } ?>
         </div>
 
     </section>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
+</html>

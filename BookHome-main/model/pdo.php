@@ -2,6 +2,17 @@
 /**
  * Mở kết nối đến CSDL sử dụng PDO
  */
+function get_conn(){
+	$servername = "localhost";
+			$username = "root";
+			$password = "";
+			$dbname = "webbansach";
+
+			// Create connection
+			$conn = new mysqli($servername, $username, $password, $dbname);
+			
+	return $conn;
+}
 function pdo_get_connection(){
     $dburl = "mysql:host=localhost;dbname=webbansach;charset=utf8";
     $username = 'root';
